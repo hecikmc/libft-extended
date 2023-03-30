@@ -6,11 +6,11 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 13:04:26 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/01/30 16:42:42 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/29 19:36:59 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 char	*ft_toupperstr(char *str)
 {

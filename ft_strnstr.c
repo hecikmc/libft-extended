@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/06 11:46:04 by jmerchan          #+#    #+#             */
-/*   Updated: 2022/12/09 13:16:04 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/14 18:54:14 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,17 @@ char	*ft_strnstr(const char *str, const char *word, size_t len)
 	}
 	return (NULL);
 }
+
+/*
+Busca la primera aparición de la subcadena "word" en la cadena "str",
+limitando la búsqueda a los primeros "len" caracteres de "str".
+Si se encuentra la subcadena, devuelve un puntero a su primera 
+ocurrencia en "str".
+Si no se encuentra la subcadena, devuelve NULL.
+
+Finds the first occurrence of the substring "word" in the string "str",
+limiting the search to the first "len" characters of "str".
+If the substring is found, it returns a pointer to its first
+occurrence in "str".
+If the substring is not found, it returns NULL.
+*/

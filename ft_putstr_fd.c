@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 13:02:03 by jmerchan          #+#    #+#             */
-/*   Updated: 2022/12/09 13:16:04 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/14 18:46:00 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,8 @@ void	ft_putstr_fd(char *s, int fd)
 }
 
 /*
-Muestra por la salida fd una cadena de caracteres
+Muestra por la salida fd una cadena de caracteres.
+
+
+Output a string of characters to fd.
 */

@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 12:52:50 by jmerchan          #+#    #+#             */
-/*   Updated: 2022/12/09 13:16:04 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/14 18:46:05 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,7 @@ void	ft_putendl_fd(char *s, int fd)
 }
 
 /*
-Muestra por la salida fd una cadena de caracteres seguido de un salto de línea
+Muestra por la salida fd una cadena de caracteres seguido de un salto de línea.
+
+Output fd a string followed by a newline.
 */

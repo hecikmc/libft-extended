@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 11:52:01 by jmerchan          #+#    #+#             */
-/*   Updated: 2022/12/09 13:16:04 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/14 18:45:43 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,4 +39,6 @@ void	ft_putnbr_fd(int n, int fd)
 
 /*
 Muestra un int por la salida indicada en fd. 
+
+Returns an int for the output indicated in fd.
 */

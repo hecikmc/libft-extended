@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/02 19:22:50 by jmerchan          #+#    #+#             */
-/*   Updated: 2022/12/09 13:16:04 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/14 18:43:42 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,4 +47,12 @@ con el resultado de la copia.
 Si origen es más pequeño de destino, lo copiamos desde el final hasta
 el principio para no pisar memoria que pudieran compartir. 
 De lo contrario lo copiamos desde el inicio. 
+
+This function receives a pointer (destination), a pointer (source)
+and a number of bytes
+Copy source to destination n times. Returns the modified dest pointer
+with the copy result.
+If origin is smaller than destination, we copy it from the end to
+the beginning to avoid stepping on memory that they could share.
+Otherwise we copy it from the beginning.
  */
