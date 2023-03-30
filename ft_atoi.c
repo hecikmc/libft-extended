@@ -6,13 +6,13 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 13:41:32 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/14 17:40:35 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/30 13:08:36 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(const char *str)
+long	ft_atoi(const char *str)
 {
 	int	i;
 	int	sign;
