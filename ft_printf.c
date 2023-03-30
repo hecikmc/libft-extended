@@ -6,11 +6,11 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/19 13:32:45 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/29 19:35:32 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/30 12:54:57 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 static void	ft_vartype(const char v, va_list arg, int *total)
 {
 	char	*str;

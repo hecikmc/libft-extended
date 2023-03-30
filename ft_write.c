@@ -6,11 +6,11 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/19 19:35:42 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/29 19:37:01 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/30 12:55:21 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 void	ft_putchar_c(int c, int *total)
 {

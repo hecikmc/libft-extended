@@ -6,11 +6,11 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 15:29:16 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/29 19:37:04 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/30 12:56:30 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 static char	*ft_strjoin_free(char *s1, char const *s2)
 {

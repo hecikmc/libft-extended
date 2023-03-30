@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/01 13:35:37 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/14 16:48:54 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/22 13:01:15 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,12 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <string.h>
+# include <stdarg.h>
+# include <stdio.h>
+# include <fcntl.h>
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42
+# endif
 
 typedef struct s_list
 {
@@ -37,7 +43,7 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size);
 size_t	ft_strlcat(char *dest, const char *src, size_t size);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
-int		ft_atoi(const char *str);
+long	ft_atoi(const char *str);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strrchr(const char *str, int c);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
@@ -66,5 +72,16 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+int		ft_printf(const char *str, ...);
+void	ft_putstr_c(char *str, int *cont);
+void	ft_putchar_c(int c, int *total);
+char	*ft_itoa_c(int n);
+char	*ft_itoa_uc(unsigned int n);
+char	*ft_itoa_x(unsigned long n);
+char	*ft_toupperstr(char *str);
+char	*get_next_line(int fd);
+char	*ft_readf(int fd, char *str);
+char	*ft_oneline(char *str);
+char	*ft_getbuffer(char *str);
 
 #endif

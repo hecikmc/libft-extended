@@ -6,11 +6,11 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/20 13:22:29 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/29 19:34:19 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/30 12:55:39 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 static size_t	ft_ndigit(long n)
 {
