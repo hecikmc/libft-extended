@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 13:14:29 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/14 17:56:01 by jmerchan         ###   ########.fr       */
+/*   Updated: 2022/12/09 19:03:19 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,13 +61,11 @@ char	*ft_itoa(int n)
 }
 
 /*
-Convierte una variable int en string, se usa una función extra que cuenta el num 
-de digitos del entero para realizar la reserva de memoria dinámica con malloc. 
+Convierte un int en un string, se usa una función extra que cuenta el num 
+de digitos del entero para realizar la reserva de memoria con malloc. 
+En caso de ser un número negativo se contabiliza un digito de más para el 
+signo negativo. 
 Se rellena el array desde la última posición hasta la primera. 
-Si ocurre un error de asignación de memoria, la función devuelve un puntero nulo.
-
-Converts an int variable to a string, using an extra function that counts the num
-of digits of the integer to perform the allocation of dynamic memory with malloc.
-The array is filled from the last position to the first.
-If a memory allocation error occurs, the function returns a null pointer.
+Lo primero que se rellena es el nulo del final del string y luego 
+los restos de la descomposición del número. 
 */

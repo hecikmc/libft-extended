@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 15:54:38 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/14 18:46:53 by jmerchan         ###   ########.fr       */
+/*   Updated: 2022/12/09 13:16:04 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,4 @@ char	*ft_strchr(const char *str, int c)
 Busca un caracter c en la cadena str, devuelve el puntero a la primera 
 coincidencia encontrada en str. Si c es nulo, devuelve la cadena entera. 
 Si no localiza c devuelve nulo.
-
-Searches for a character c in the string str, returns the pointer to the first
-match found on str. If c is null, returns the entire string.
-If it doesn't locate c, it returns null.
 */

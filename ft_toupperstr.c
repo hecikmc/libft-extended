@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 13:04:26 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/30 13:06:03 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/01/30 16:42:42 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,3 @@ char	*ft_toupperstr(char *str)
 	}
 	return (str);
 }
-
-/*
-This function are used by ft_printf to put in capital letter the string 
-received, this is to manage the values of x and X (hexadecimal numbers)
-*/

@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/27 14:09:23 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/14 18:48:34 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/01 17:10:52 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,15 +59,13 @@ char	**ft_split(char const *str, char c)
 	char	**split;
 	int		is;
 	int		i;
-	int		nwords;
 
 	is = 0;
 	i = 0;
-	nwords = ft_cwords(str, c);
-	split = malloc(sizeof(char *) * (nwords + 1));
+	split = malloc(sizeof(char *) * (ft_cwords(str, c) + 1));
 	if (!split)
 		return (0);
-	split[nwords] = 0;
+	split[ft_cwords(str, c)] = 0;
 	while (str[i])
 	{
 		while (str[i] == c && str[i] != 0)
@@ -82,19 +80,3 @@ char	**ft_split(char const *str, char c)
 	}
 	return (split);
 }
-
-/*
-La función ft_split divide una cadena str en subcadenas utilizando el carácter 
-c como separador.
-Devuelve un puntero a una matriz de cadenas (es decir, un array 
-de punteros a cadenas) que contienen las subcadenas.
-El último elemento de la matriz debe ser NULL.
-Si falla la asignación de memoria, devuelve NULL.
-
-The ft_split function splits a string str into substrings using the character
-c as separator.
-Returns a pointer to an array of strings (that is, an 
-array of pointers to strings) containing the substrings.
-The last element of the array must be NULL.
-If memory allocation fails, it returns NULL.
-*/

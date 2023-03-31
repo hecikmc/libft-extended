@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/19 19:35:42 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/30 13:05:11 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/01/30 16:42:12 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,3 @@ void	ft_putstr_c(char *str, int *cont)
 		i++;
 	}
 }
-
-/*
-This functions are used by ft_printf to print char and strings
-*/

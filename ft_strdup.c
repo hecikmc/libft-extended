@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/06 14:53:15 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/14 18:47:06 by jmerchan         ###   ########.fr       */
+/*   Updated: 2022/12/09 13:16:04 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,4 @@ char	*ft_strdup(const char *s)
 Esta función recibe un string (const) y devuelve un puntero (string) de una 
 copia del string recibido. Esta acción la realiza con una reserva de memoria
 mediante malloc. 
-
-This function receives a string (const) and returns a pointer (string) of a
-copy of the received string. This action is performed with a memory reserve
-via malloc.
 */

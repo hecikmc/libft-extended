@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 13:41:32 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/30 13:08:36 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/03/22 13:00:30 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 long	ft_atoi(const char *str)
 {
-	int	i;
-	int	sign;
-	int	r;
+	int		i;
+	int		sign;
+	long	r;
 
 	i = 0;
 	sign = 1;
@@ -34,17 +34,3 @@ long	ft_atoi(const char *str)
 	}
 	return (sign * r);
 }
-
-/*
-La función ft_atoi convierte una cadena (string) en un número entero (int).
-La cadena debe estar formateada como un número entero válido,
-y puede contener espacios en blanco y/o signo (+/-) antes del número.
-Devuelve el número entero correspondiente a la cadena, o 0 si la cadena
-no es un número entero válido.
-
-The ft_atoi function converts a string to an integer.
-The string must be formatted as a valid integer,
-and may contain leading whitespace and/or a sign (+/-) before the number.
-It returns the corresponding integer for the string, or 0 if the string 
-is not a valid integer.
-*/

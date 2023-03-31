@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstsize_bonus.c                                 :+:      :+:    :+:   */
+/*   ft_lstsize.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 16:21:36 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/14 18:40:42 by jmerchan         ###   ########.fr       */
+/*   Updated: 2022/12/12 16:51:16 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,3 @@ int	ft_lstsize(t_list *lst)
 	size++;
 	return (size);
 }
-
-/*
-La función ft_lstsize devuelve la longitud de la lista enlazada lst.
-Si lst es un puntero nulo, devuelve 0.
-
-The ft_lstsize function returns the length of the linked list lst.
-If lst is a null pointer, it returns 0.
-*/

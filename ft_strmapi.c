@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 16:42:11 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/03/14 18:52:29 by jmerchan         ###   ########.fr       */
+/*   Updated: 2022/12/09 13:16:04 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,12 +36,5 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 Esta función aplica sobre cada caracter de la cadena S la función F 
 (cadena de char) que devuelve un char y devuelve el resultado en un 
 nuevo string (res).
-Es necesario reservar memoria por cada caracter de s + 1 para el nulo 
-del final.
-
-This function applies to each character of the string S the function F
-(string char) which returns a char and returns the result in a
-new string(res).
-It is necessary to reserve memory for each character of s + 1 for 
-the trailing null.
+Es necesario reservar memoria por cada caracter de s + 1 para el nulo del final.
 */
