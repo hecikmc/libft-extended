@@ -6,7 +6,11 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/24 19:12:44 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/07/24 19:22:08 by jmerchan         ###   ########.fr       */
+<<<<<<< HEAD
+/*   Updated: 2023/07/24 19:20:35 by jmerchan         ###   ########.fr       */
+=======
+/*   Updated: 2023/07/24 19:20:35 by jmerchan         ###   ########.fr       */
+>>>>>>> 25c8d23f8e10c4ca831a603755dfdeb8b92392e7
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +22,7 @@ char	*ft_strjoinfree(char *s1, char const *s2)
 	size_t	size;
 	int		i;
 
-	if (!s1 || !s2)
+	if (!s1 && !s2)
 		return (0);
 	size = ft_strlen(s1) + ft_strlen(s2);
 	join = (char *) malloc(sizeof (char) * (size + 1));
