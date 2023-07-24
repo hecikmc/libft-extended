@@ -6,7 +6,7 @@
 #    By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/09 13:15:20 by jmerchan          #+#    #+#              #
-#    Updated: 2023/03/13 12:03:56 by jmerchan         ###   ########.fr        #
+#    Updated: 2023/07/24 19:14:05 by jmerchan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,6 +41,7 @@ SRC = ft_isalpha.c \
 	  ft_strdup.c \
 	  ft_substr.c \
 	  ft_strjoin.c \
+	  ft_strjoinfree.c \
 	  ft_strtrim.c \
 	  ft_putnbr_fd.c \
 	  ft_putendl_fd.c \
