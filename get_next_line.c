@@ -6,27 +6,11 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 15:29:16 by jmerchan          #+#    #+#             */
-/*   Updated: 2023/01/30 17:30:23 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/09/13 20:29:36 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-static char	*ft_strjoin_free(char *s1, char const *s2)
-{
-	char	*join;
-	size_t	size;
-	int		i;
-
-	size = ft_strlen(s1) + ft_strlen(s2);
-	join = (char *) ft_calloc(sizeof (char), (size + 1));
-	i = ft_strlen(s1);
-	ft_memcpy(join, s1, i);
-	ft_memcpy(&join[i], s2, ft_strlen(s2));
-	join[size] = 0;
-	free(s1);
-	return (join);
-}
 
 char	*ft_getbuffer(char *str)
 {

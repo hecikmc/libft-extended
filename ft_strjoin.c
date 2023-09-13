@@ -6,7 +6,7 @@
 /*   By: jmerchan <jmerchan@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/07 12:50:08 by jmerchan          #+#    #+#             */
-/*   Updated: 2022/12/09 13:16:04 by jmerchan         ###   ########.fr       */
+/*   Updated: 2023/09/13 20:26:24 by jmerchan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,4 +29,22 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_memcpy(&join[i], s2, ft_strlen(s2));
 	join[size] = 0;
 	return (join);
+}
+
+char	*ft_strjoin_free(char *s1, char *s2)
+{
+	char	*str;
+	int		s1len;
+	int		s2len;
+
+	s1len = ft_strlen(s1);
+	s2len = ft_strlen(s2);
+	str = malloc(sizeof(char) * (s1len + s2len + 1));
+	if (!str)
+		return (0);
+	ft_memcpy(str, s1, s1len);
+	ft_memcpy(&str[s1len], s2, s2len);
+	str[s1len + s2len] = 0;
+	free(s1);
+	return (str);
 }
